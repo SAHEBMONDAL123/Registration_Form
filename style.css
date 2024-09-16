@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('./kk.avif') no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.registration-form{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.cent h1 {
+      font-size: 35px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 100px 0;
+}
+
+.registration-form p{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1.5px dashed #e8183a;
+    outline: none;
+}
+
+.registration-form button{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.registration-form button:hover{
+    color: red;
+    border: 1.5px dashed #e8183a;
+    transform: 1.7;
+}
